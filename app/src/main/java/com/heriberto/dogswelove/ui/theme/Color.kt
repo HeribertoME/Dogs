@@ -2,6 +2,10 @@ package com.heriberto.dogswelove.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
+val PrimaryText = Color(0xFF333333)
+val SecondaryText = Color(0xFF666666)
+val Background = Color(0xFFF8F8F8)
+
 val Purple80 = Color(0xFFD0BCFF)
 val PurpleGrey80 = Color(0xFFCCC2DC)
 val Pink80 = Color(0xFFEFB8C8)
