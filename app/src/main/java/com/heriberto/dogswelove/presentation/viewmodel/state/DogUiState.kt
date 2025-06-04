@@ -5,4 +5,5 @@ import com.heriberto.dogswelove.domain.model.Dog
 data class DogUiState(
     val isLoading: Boolean = false,
     val dogs: List<Dog> = emptyList(),
+    val errorMessage: String? = null
 )

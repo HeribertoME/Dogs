@@ -74,6 +74,9 @@ dependencies {
     implementation(libs.moshi)
     implementation(libs.moshi.kotlin)
     ksp(libs.moshi.kotlin)
+    implementation(libs.gson)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.okhttp.logging.interceptor)
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)

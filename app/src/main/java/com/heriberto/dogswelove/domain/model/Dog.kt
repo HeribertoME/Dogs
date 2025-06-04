@@ -1,9 +1,8 @@
 package com.heriberto.dogswelove.domain.model
 
 data class Dog(
-    val id: Int,
-    val name: String,
+    val dogName: String,
     val description: String,
-    val age: String,
-    val imageUrl: String,
+    val age: Int,
+    val url: String,
 )

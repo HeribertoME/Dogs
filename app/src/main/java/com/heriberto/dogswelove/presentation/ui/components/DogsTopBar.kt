@@ -13,6 +13,8 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import com.heriberto.dogswelove.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -21,10 +23,11 @@ fun DogsTopBar(
 ) {
     val context = LocalContext.current
     val activity = context as? Activity
+    val title = stringResource(id = R.string.app_name)
 
     CenterAlignedTopAppBar(
         modifier = modifier,
-        title = { Text("Dogs We Love") },
+        title = { Text(text = title) },
         navigationIcon = {
             IconButton(onClick = { activity?.finish() }) {
                 Icon(
