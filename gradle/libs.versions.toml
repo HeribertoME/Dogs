@@ -13,6 +13,9 @@ navigation = "2.7.7"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
+mockito-core = "5.11.0"
+mockito-kotlin = "4.1.0"
+coroutines-test = "1.7.3"
 
 # Hilt
 hilt = "2.51.1"
@@ -84,6 +87,10 @@ coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coi
 # Testing
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito-core" }
+mockito-inline = { module = "org.mockito:mockito-inline", version = "5.2.0" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines-test" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 
 [plugins]
