@@ -16,6 +16,7 @@ espressoCore = "3.6.1"
 
 # Hilt
 hilt = "2.51.1"
+hiltNavigationCompose = "1.2.0"
 
 # Room
 room = "2.6.1"
@@ -54,6 +55,7 @@ navigation-compose = { group = "androidx.navigation", name = "navigation-compose
 # Hilt
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 
 # Room
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
